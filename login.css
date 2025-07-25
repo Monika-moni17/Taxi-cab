@@ -1,0 +1,104 @@
+/* Background styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(background.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Container box */
+.login-box {
+  background-color: white;
+  width: 550px;
+  height: 300px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  display: flex;
+}
+.welcome h3{
+    padding-top: 30px;
+}
+
+/* Welcome section */
+.welcome {
+  background-image: url(image.jpg);
+  background-size: cover;
+  margin-top: 10px;
+text-align: center;
+flex-direction: column;
+  width: 550px;
+  height: 250px;
+  
+ padding: 40px;;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+
+.login-box1{
+    background-color: rgb(255, 255, 253);
+  width: 450px;
+  height: 250px;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+/* Heading */
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: black;
+}
+
+/* Input field */
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Link styling */
+.login-box a {
+  font-size: 14px;
+  color: #007BFF;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Login button */
+.login-box button {
+  width: 100%;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Signup section */
+.signup {
+  text-align: center;
+  margin-top: 15px;
+  color: #000;
+}
+.login-box1:hover{
+
+text-decoration: underline;
+}
